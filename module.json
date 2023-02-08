@@ -1,0 +1,58 @@
+{
+  "id": "lucky-flight-takedown",
+  "name": "lucky-flight-takedown",
+  "title": "Lucky Flight Takedown",
+  "description": "Lucky Flight Takedown is an example adventure for the Cy_Borg game system. This module includes pre-generated NPCs, roll tables, and scenes for use with the adventure. Running the adventure requires the Cy_Borg game book.\nThis Lucky Flight Takedown Module is an independent production by RPGxNihilo and is not affiliated with Stockholm Kartell. It is published under the CY_BORG Third Party License.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "RPGxNihilo",
+  "authors": [
+    {
+      "name": "RPGxNihilo"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Lucky Flight Takedown",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "cy-borg"
+    },
+    {
+      "name": "journals",
+      "label": "Lucky Flight Takedown",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "maps",
+      "label": "Lucky Flight Takedown",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "rolltables",
+      "label": "Lucky Flight Takedown",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "https://github.com/rpgxnihilo/lucky-flight-takedown",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
