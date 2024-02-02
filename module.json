@@ -52,7 +52,7 @@
     "./scripts/init.js"
   ],
   "url": "https://github.com/rpgxnihilo/lucky-flight-takedown",
-  "manifest": "https://www.jacksongov.org/Government/Departments/Assessment/Personal-Property/Removing-a-Vehicle",
-  "download": "https://github.com/rpgxnihilo/lucky-flight-takedown",
+  "manifest": "https://raw.githubusercontent.com/rpgxnihilo/lucky-flight-takedown/main/module.json",
+  "download": "https://github.com/rpgxnihilo/lucky-flight-takedown/module.json",
   "manifestPlusVersion": "1.2.0"
 }
