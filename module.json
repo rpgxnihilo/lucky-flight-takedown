@@ -62,6 +62,6 @@
       "flags": {}
     } 
   ],
-  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
-  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  "manifest": "https://raw.githubusercontent.com/rpgxnihilo/lucky-flight-takedown/main/module.json",
+  "download": "https://raw.githubusercontent.com/rpgxnihilo/lucky-flight-takedown/main/lucky-flight-takedown.zip"
 }
