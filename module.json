@@ -5,7 +5,7 @@
   "description": "Lucky Flight Takedown is an example adventure for the Cy_Borg game system. This module includes pre-generated NPCs, roll tables, and scenes for use with the adventure. Running the adventure requires the Cy_Borg game book.\nThis Lucky Flight Takedown Module is an independent production by RPGxNihilo and is not affiliated with Stockholm Kartell. It is published under the CY_BORG Third Party License.",
   "version": "1.0.0",
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "10",
+  "compatibleCoreVersion": "11",
   "compatibility": {
     "minimum": "0.8.6",
     "verified": "10",
