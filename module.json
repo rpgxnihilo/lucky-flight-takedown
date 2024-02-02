@@ -1,58 +1,67 @@
 {
   "id": "lucky-flight-takedown",
-  "name": "lucky-flight-takedown",
-  "title": "Lucky Flight Takedown",
-  "description": "Lucky Flight Takedown is an example adventure for the Cy_Borg game system. This module includes pre-generated NPCs, roll tables, and scenes for use with the adventure. Running the adventure requires the Cy_Borg game book.\nThis Lucky Flight Takedown Module is an independent production by RPGxNihilo and is not affiliated with Stockholm Kartell. It is published under the CY_BORG Third Party License.",
-  "version": "1.0.0",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "11",
-  "compatibility": {
-    "minimum": "0.8.6",
-    "verified": "11",
-    "maximum": "11"
-  },
-  "author": "RPGxNihilo",
+  "title": "Lucky Flight Takedown!",
+  "description": "Lucky Flight Takedown is an example adventure for the Cy_Borg game system originally released in the Cy_Borg core rulebook. This module includes pre-generated NPCs, roll tables, and scenes for use with the adventure. Running the adventure requires the Cy_Borg game rule book.",
+  "version": "2.0.0",
   "authors": [
     {
-      "name": "RPGxNihilo"
+      "name": "RPGxNihilo",
+      "discord": "",
+      "url": "https://www.rpgxnihilo.com/",
+      "flags": {}
     }
   ],
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10.286"
+  },
   "packs": [
     {
-      "name": "actors",
-      "label": "Lucky Flight Takedown",
-      "path": "/packs/actors.db",
-      "entity": "Actor",
+      "name": "module-actors",
+      "label": "Lucky Flight NPCs",
+      "path": "packs/actors",
       "type": "Actor",
-      "system": "cy-borg"
+      "system": "cy-borg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-      "name": "journals",
-      "label": "Lucky Flight Takedown",
-      "path": "/packs/journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
+      "name": "module-scenes",
+      "label": "Lucky Flight Casino",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-      "name": "maps",
-      "label": "Lucky Flight Takedown",
-      "path": "/packs/maps.db",
-      "entity": "Scene",
-      "type": "Scene"
+      "name": "module-journal-entries",
+      "label": "Lucky Flight License",
+      "path": "packs/journal-entries",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
-      "name": "rolltables",
-      "label": "Lucky Flight Takedown",
-      "path": "/packs/rolltables.db",
-      "entity": "RollTable",
-      "type": "RollTable"
-    }
+      "name": "module-roll-tables",
+      "label": "Lucky Flight Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    } 
   ],
-  "esmodules": [
-    "./scripts/init.js"
-  ],
-  "url": "https://github.com/rpgxnihilo/lucky-flight-takedown",
-  "manifest": "https://raw.githubusercontent.com/rpgxnihilo/lucky-flight-takedown/main/module.json",
-  "download": "https://github.com/rpgxnihilo/lucky-flight-takedown/module.json",
-  "manifestPlusVersion": "1.2.0"
+  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
 }
